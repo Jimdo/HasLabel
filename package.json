@@ -8,5 +8,9 @@
   },
   "dependencies": {
     "actions-toolkit": "^6.0.0"
+  },
+  "volta": {
+    "node": "24.21.0",
+    "npm": "12.1.0"
   }
 }
