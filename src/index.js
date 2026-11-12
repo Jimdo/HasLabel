@@ -1,8 +1,8 @@
-const { Toolkit } = require('actions-toolkit')
+const toolkit = require('./toolkit');
 const { labeled, unlabeled } = require('./events');
 
 
-Toolkit.run(async tools => {
+toolkit.run(async tools => {
   const ActionEvent = tools.context.payload.action;
   const label = tools.inputs.contains || tools.inputs.exact;
   /**
